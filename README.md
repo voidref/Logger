@@ -31,7 +31,7 @@ Use `enable(String:name)` to have the output show up
 
 You can set a breakpoint and use the following in the debug console then continue execution
 
-   ex Log.enable("during debug")
+    llvm$ ex Log.enable("during debug")
 
 Assuming you have done this *before* the following line in the code, you will see the output.
 
